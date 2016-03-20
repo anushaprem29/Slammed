@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Slammed</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="loginButton">loginButton</string>
+    <string name="SignUpButton">SignUpButton</string>
+    <string name="newHereText">newHereText</string>
+    <string name="logoMain">logoMain</string>
+    <string name="rollNoText">Roll Number</string>
+    <string name="passwordText">Password</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="nameText">Enter Here</string>
+    <string name="nameTextView">Name :</string>
+    <string name="rollnoText">Enter Here</string>
+    <string name="rollnoTextView">: Roll No</string>
+    <string name="genderText">Gender :</string>
+    <string name="genderTextView">M/F</string>
+    <string name="phoneTextView">Phone :</string>
+    <string name="phoneText">Enter Here</string>
+    <string name="signUpClick">Ready To SIGN UP!!</string>
+    <string name="pwdTextView">: Password</string>
+    <string name="pwdText">1234</string>
+    <string name="fillButton">Fill Your Friend\'s Slam</string>
+    <string name="helloUserTextView">Hello User!</string>
+    <string name="ProfileButton">Profile</string>
+    <string name="logoutButton">Wish to logout?</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+    <string name="interestsTV">Interests..?</string>
+    <string name="fillTV">FILL ALL THE DETAILS</string>
+    <string name="colorTV">Favorite Color..?</string>
+    <string name="ambitionTV">Ambition..?</string>
+    <string name="nameTV">Nick Name..?</string>
+    <string name="doneButton">DONE!</string>
+    <string name="heyTV">heyTV</string>
+    <string name="interestTV">interesstTV</string>
+    <string name="interestText">interestText</string>
+    <string name="favColorTV">favColorTV</string>
+    <string name="colorView">colorView</string>
+    <string name="nicknameTV">nickNameTV</string>
+    <string name="nickNameText">nickNameText</string>
+    <string name="ambitionText">ambitionText</string>
+    <string name="backButton">backButton</string>
+    <string name="editProfileButton">editProfileButton</string>
+    <string name="title_activity_friend_form">FriendForm</string>
+    <string name="slammedLogo">Slammed Logo</string>
+    <string name="promptTV">ENTER YOUR FRIEND\'S ROLL NUMBER</string>
+    <string name="promptBlock">60</string>
+    <string name="writeTV">WRITE ABOUT THEM!</string>
+    <string name="doneButton2">DONE!</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anusha.slammed.Profile"
+    android:background="@drawable/pic1"
+    android:id="@+id/profile">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/heyTV"
+        android:id="@+id/userNameTV"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/favColorTV"
+        android:layout_toEndOf="@+id/favColorTV" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Your interests are.."
+        android:id="@+id/interestTv"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/userNameTV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="xyz"
+        android:id="@+id/interestList"
+        android:layout_below="@+id/interestTv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Favorite Colour: "
+        android:id="@+id/favColorTV"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/interestList"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/colorView"
+        android:id="@+id/favColor"
+        android:layout_below="@+id/favColorTV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Friends call you.."
+        android:id="@+id/nicknameTV"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/favColor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/nickNameText"
+        android:id="@+id/Nickname"
+        android:layout_below="@+id/nicknameTV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/ambitionTV"
+        android:id="@+id/becomeTv"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/Nickname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/ambitionText"
+        android:id="@+id/becomeText"
+        android:layout_below="@+id/becomeTv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backButton"
+        android:id="@+id/backButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editProfileButton"
+        android:id="@+id/editProfile"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/becomeText"
+        android:layout_alignEnd="@+id/becomeText" />
+
+</RelativeLayout>
